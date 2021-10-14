@@ -20,7 +20,7 @@ All information for building Ago is free and public open source for anyone to bu
 - [ ] Dynamixel + OpenCR controller
 
 # IA, Sensors and Controllers
-<img src="https://github.com/andreagavazzi/Curiosity/blob/main/images/ag_logo.jpg" alt="ag_logo" width="200"/>
+<img src="https://github.com/andreagavazzi/Ago/assets/ag_logo.jpg" alt="ag_logo" width="200"/>
   
 Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu.
 
