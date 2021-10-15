@@ -10,7 +10,7 @@ All information for building Ago is free and open source for anyone to build the
 * Construction Method: 
 
 # Development Status and Milestones
-<img src="https://github.com/andreagavazzi/ago/blob/main/assets/build.jpg" alt="ag_logo" width="600"/>
+<img src="https://github.com/andreagavazzi/ago/blob/main/assets/build.jpg" alt="ag_logo" width="400"/>
 
 **Ago version 1.0** 
 
