@@ -1,4 +1,4 @@
-![Curiosity](/banner.jpg)
+![Ago](/https://github.com/andreagavazzi/ag_ago/blob/main/assets/banner.jpg)
 
 # Background
 
