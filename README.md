@@ -45,4 +45,4 @@ Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step b
 👉 Additional material can be found in my [Onedrive shared folder](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
 
 # 
-<img src="https://github.com/andreagavazzi/Curiosity/blob/main/images/nasa_logo.jpg" alt="ag_logo" width="600"/>
+<img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
