@@ -26,7 +26,7 @@ All information for building Ago is free and open source for anyone to build the
 - [ ] Lidar laser scanner
 
 # Sensors and Controllers
-<img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
+<img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="200"/>
 
 
 # ROS and IA
