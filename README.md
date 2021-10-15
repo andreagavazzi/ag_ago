@@ -25,7 +25,11 @@ All information for building Ago is free and open source for anyone to build the
 - [ ] Camera turret (webcam to be defined)
 - [ ] Lidar laser scanner
 
-# IA, Sensors and Controllers
+# Sensors and Controllers
+<img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
+
+
+# ROS and IA
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="200"/>
   
 Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu.
