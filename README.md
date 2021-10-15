@@ -17,7 +17,6 @@ All information for building Ago is free and open source for anyone to build the
 - [ ] This milestone includes a basic rolling chassis that is mechanically functional
 - [ ] Aestetic add-ons on the chassis (reactor, attachments and linkages, ...)
 - [ ] Camera turret (webcamto be defined)
-- [ ] Dynamixel + OpenCR controller
 
 # IA, Sensors and Controllers
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="200"/>
