@@ -28,9 +28,13 @@ All information for building Ago is free and open source for anyone to build the
 # Sensors and Controllers
 <img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
 
+Ago is equipped with an increasing number of sensors like:
+* TODO
+* TODO
+* TODO
 
 # ROS and IA
-<img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="200"/>
+<img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
   
 Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu.
 
