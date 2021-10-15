@@ -2,7 +2,7 @@
 
 # Background
 
-Ago is my version of [Leo Rover](https://www.leorover.tech/), an Unmannehd Ground Vehicle by Fictionlab. Ago is intended to be my hardware platform for future software projects in autonomous operations and IA development.
+Ago is my version of Leo Rover, the Unmannehd Ground Vehicle by Fictionlab. Ago is intended to be my hardware platform for future software projects in autonomous operations and IA development.
 
 All information for building Ago is free and open source for anyone to build their own.
 
