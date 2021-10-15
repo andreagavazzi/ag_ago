@@ -36,7 +36,7 @@ Ago is equipped with an increasing number of sensors like:
 # ROS and IA
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
   
-Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu.
+Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step by step I'll migrate some applications I built under my agRobotics firm.
 
 **ROS Melodic**: ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open source, BSD license. ROS Melodic Morenia is the twelfth ROS distribution release.
 
