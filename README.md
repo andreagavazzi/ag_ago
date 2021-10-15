@@ -33,7 +33,7 @@ Ago is equipped with an increasing number of sensors like:
 * TODO
 * TODO
 
-# ROS and IA
+# ROS and Artificial Intelligence
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
   
 Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step by step I'll migrate some applications I built under my agRobotics firm.
