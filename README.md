@@ -2,15 +2,15 @@
 
 # Background
 
-Ago is my version of [Leo Rover](https://www.leorover.tech/), an UGV platform by Fictionlab. Ago is intended to be an hardware platform for future software projects in autonomous operations and IA development.
+Ago is my version of [Leo Rover](https://www.leorover.tech/), an Unmannehd Ground Vehicle by Fictionlab. Ago is intended to be my hardware platform for future software projects in autonomous operations and IA development.
 
-All information for building Ago is free and public open source for anyone to build their own.
+All information for building Ago is free and open source for anyone to build their own.
 
-* Motorization: Moving the wheels is done with serial bus servo motors. I went for Dynamixel AX-18A I took from a previous hexapod project. 
-* Construction Method: Instead of using the [Actobotics construction system](https://www.servocity.com/actobotics), Perseverance will be built from aluminum extrusions connected by 3D-printed plastic parts.
+* Motorization: 
+* Construction Method: 
 
 # Development Status and Milestones
-<img src="https://github.com/andreagavazzi/Curiosity/blob/main/images/nasa_logo.jpg" alt="ag_logo" width="600"/>
+<img src="https://github.com/andreagavazzi/ago/blob/main/assets/build.jpg" alt="ag_logo" width="600"/>
 
 **Ago version 1.0** 
 
