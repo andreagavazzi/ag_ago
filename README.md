@@ -6,8 +6,14 @@ Ago is my version of [Leo Rover](https://www.leorover.tech/), an Unmannehd Groun
 
 All information for building Ago is free and open source for anyone to build their own.
 
-* Motorization: 
-* Construction Method: 
+* Weight: 6,5 kg
+* Dimensions: 447x433x249 mm
+* Payload capacity: ca. 5 kg
+* Motorization: 4 x in-hub DC motor with 73.2:1 planetary gearbox and 12 CPR encoder
+* Max. linear speed: ca. 0.4 m/s
+* Max. angular speed: ca. 60 deg/s
+* Run time: About 4 hrs
+* Connection range: Up to 100m (with live video stream)
 
 # Development Status and Milestones
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/build.jpg" alt="ag_logo" width="400"/>
@@ -16,7 +22,7 @@ All information for building Ago is free and open source for anyone to build the
 
 - [ ] This milestone includes a basic rolling chassis that is mechanically functional
 - [ ] Aestetic add-ons on the chassis (reactor, attachments and linkages, ...)
-- [ ] Camera turret (webcamto be defined)
+- [ ] Camera turret (webcam to be defined)
 
 # IA, Sensors and Controllers
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="200"/>
