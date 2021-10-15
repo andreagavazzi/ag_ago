@@ -27,7 +27,7 @@ Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu.
 
 **NVIDIA Jetson AGX Xavier**: The latest addition to the Jetson platform. It’s an AI computer for autonomous machines, delivering the performance of a GPU workstation in an embedded module under 30W. Jetson AGX Xavier is designed for robots, drones and other autonomous machines.
 
-Additional material can be found in my [Onedrive shared folder](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
+☁️Additional material can be found in my [Onedrive shared folder](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
 
 
 <img src="https://github.com/andreagavazzi/Curiosity/blob/main/images/nasa_logo.jpg" alt="ag_logo" width="600"/>
