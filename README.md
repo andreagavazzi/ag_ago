@@ -30,8 +30,8 @@ All information for building Ago is free and open source for anyone to build the
 
 Ago will be equipped with an increasing number of sensors while the electronic is depending on the platform version. 
  
-* Version 1.0: RaspberryPi 4B :arrow_left:
-* Version 1.5: nVidia Jetson Nano 
+* Version 1.0: RaspberryPi 4B (current)
+* Version 1.5: nVidia Jetson Nano
 * Version 2.0: nVidia Xavier AGX
 
 # ROS and Artificial Intelligence
