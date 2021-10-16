@@ -20,15 +20,19 @@ All information for building Ago is free and open source for anyone to build the
 
 **Ago version 1.0** 
 
-- [ ] This milestone includes a basic rolling chassis that is mechanically functional
+- [ ] This milestone includes the standard functional rover
 - [ ] Aestetic add-ons on the chassis (reactor, attachments and linkages, ...)
+
+**Ago version 1.5** 
+
 - [ ] Camera turret (webcam to be defined)
 - [ ] Lidar laser scanner
+
 
 # Sensors and Electronics
 <img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
 
-Ago will be equipped with an increasing number of sensors while the electronic is depending on the platform version. 
+Ago will be equipped with an increasing number of sensors while the electronic is depending on the platform main version. 
  
 * Version 1.0: RaspberryPi 4B (current)
 * Version 1.5: nVidia Jetson Nano
