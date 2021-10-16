@@ -25,13 +25,14 @@ All information for building Ago is free and open source for anyone to build the
 - [ ] Camera turret (webcam to be defined)
 - [ ] Lidar laser scanner
 
-# Sensors and Controllers
+# Sensors and Electronics
 <img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
 
-Ago is equipped with an increasing number of sensors like:
-* TODO
-* TODO
-* TODO
+Ago will be equipped with an increasing number of sensors while the electronic is depending on the platform version. 
+ 
+* Version 1.0: RaspberryPi 4B :arrow_left:
+* Version 1.5: nVidia Jetson Nano 
+* Version 2.0: nVidia Xavier AGX
 
 # ROS and Artificial Intelligence
 <img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/cameras.jpg" alt="ag_logo" width="400"/>
