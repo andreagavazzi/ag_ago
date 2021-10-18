@@ -49,8 +49,8 @@ Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step b
 
 # Gallery
 TODO: Aggiungere immagini
-
-👉 Additional shared material can be found in my onedrive folder: [Andrea Gavazzi](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
-
+```
+💾 Additional shared material can be found in my onedrive folder: [Andrea Gavazzi](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
+```
 # 
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
