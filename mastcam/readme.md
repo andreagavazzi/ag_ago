@@ -1,6 +1,6 @@
-#MastCam
+# MastCam
 Perseverance-like Mast camera turret
 
-![MastCam](https://github.com/andreagavazzi/ag_ago/blob/main/assets/MastCam.png)
+<img src="https://github.com/andreagavazzi/ago/blob/main/assets/MastCam.jpg" alt="MastCam" width="400"/>
 
 Based on [dynamixel-control-hw](http://www.resibots.eu/dynamixel_control_hw/)
