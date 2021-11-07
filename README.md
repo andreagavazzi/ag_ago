@@ -2,7 +2,7 @@
 
 # Background
 
-Ago is my version of Leo Rover, the Unmannehd Ground Vehicle by Fictionlab. Ago is intended to be my hardware platform for future software projects in autonomous operations and IA development.
+Perception is my version of Leo Rover, the Unmannehd Ground Vehicle by Fictionlab. Perception is intended to be my hardware platform for future software projects in autonomous operations and IA development.
 
 All information for building Ago is free and open source for anyone to build their own.
 
@@ -18,12 +18,12 @@ All information for building Ago is free and open source for anyone to build the
 # Development Status and Milestones
 <img src="https://github.com/andreagavazzi/ago/blob/main/assets/build.jpg" alt="ag_logo" width="400"/>
 
-**Ago version 1.0** 
+**Perception version 1.0** 
 
 - [ ] This milestone includes the standard functional rover
 - [ ] Aestetic add-ons on the chassis (reactor, attachments and linkages, ...)
 
-**Ago version 1.5** 
+**Perception version 1.5** 
 
 - [ ] Camera turret (webcam to be defined)
 - [ ] Lidar laser scanner
@@ -32,7 +32,7 @@ All information for building Ago is free and open source for anyone to build the
 # Sensors and Electronics
 <img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
 
-Ago will be equipped with an increasing number of sensors while the electronic is depending on the platform main version. 
+Perception will be equipped with an increasing number of sensors while the electronic is depending on the platform main version. 
  
 * Version 1.0: RaspberryPi 4B (current)
 * Version 1.5: nVidia Jetson Nano
@@ -41,7 +41,7 @@ Ago will be equipped with an increasing number of sensors while the electronic i
 # ROS and Artificial Intelligence
 <img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/cameras.jpg" alt="ag_logo" width="400"/>
   
-Ago is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step by step I'll migrate some applications I built under my agRobotics firm.
+Perception is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step by step I'll migrate some applications I built under my agRobotics firm.
 
 **ROS Melodic**: ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open source, BSD license. ROS Melodic Morenia is the twelfth ROS distribution release.
 
