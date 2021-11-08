@@ -4,7 +4,7 @@
 
 Perception is my version of Leo Rover, the Unmannehd Ground Vehicle by Fictionlab. Perception is intended to be my hardware platform for future software projects in autonomous operations and IA development.
 
-All information for building Ago is free and open source for anyone to build their own.
+All information for building Perception is free and open source for anyone to build their own.
 
 * Weight: 6,5 kg
 * Dimensions: 447x433x249 mm
@@ -16,7 +16,7 @@ All information for building Ago is free and open source for anyone to build the
 * Connection range: Up to 100m (with live video stream)
 
 # Development Status and Milestones
-<img src="https://github.com/andreagavazzi/ago/blob/main/assets/build.jpg" alt="ag_logo" width="400"/>
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/build.jpg" alt="ag_logo" width="400"/>
 
 **Perception version 1.0** 
 
@@ -30,7 +30,7 @@ All information for building Ago is free and open source for anyone to build the
 
 
 # Sensors and Electronics
-<img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/sensor.png" alt="sensor" width="400"/>
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/sensor.png" alt="sensor" width="400"/>
 
 Perception will be equipped with an increasing number of sensors while the electronic is depending on the platform main version. 
  
@@ -39,7 +39,7 @@ Perception will be equipped with an increasing number of sensors while the elect
 * Version 2.0: nVidia Xavier AGX
 
 # ROS and Artificial Intelligence
-<img src="https://github.com/andreagavazzi/ag_ago/blob/main/assets/cameras.jpg" alt="ag_logo" width="400"/>
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/cameras.jpg" alt="ag_logo" width="400"/>
   
 Perception is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step by step I'll migrate some applications I built under my agRobotics firm.
 
@@ -53,4 +53,4 @@ TODO: Aggiungere immagini
 💾 Additional shared material can be found in my onedrive folder: [Andrea Gavazzi](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
  
 # 
-<img src="https://github.com/andreagavazzi/ago/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/ag_logo.jpg" alt="ag_logo" width="400"/>
