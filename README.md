@@ -49,7 +49,7 @@ Perception is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu,
 
 # Gallery
 TODO: Aggiungere immagini
-<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG0862.png" alt="ag_logo" width="400"/>
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_0862.png" alt="Shapr3D" width="400"/>
  
 💾 Additional shared material can be found in my onedrive folder: [Andrea Gavazzi](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
  
