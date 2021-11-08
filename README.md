@@ -1,4 +1,4 @@
-![Ago](https://github.com/andreagavazzi/ag_perception/blob/main/assets/banner_Perception_1_c.png)
+![Ago](https://github.com/andreagavazzi/ag_perception/blob/main/assets/banner_Perception_1.png)
 
 # Background
 
