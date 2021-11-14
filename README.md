@@ -25,7 +25,7 @@ All information for building Perception is free and open source for anyone to bu
 
 **Perception version 1.5** 
 
-- [ ] Camera turret (webcam to be defined)
+- [ ] Camera turret -> implement of my [Mastcam package](https://github.com/andreagavazzi/ag_mastcam)
 - [ ] Lidar laser scanner
 
 
