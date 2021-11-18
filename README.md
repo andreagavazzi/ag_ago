@@ -27,7 +27,7 @@ All information for building Perception is free and open source for anyone to bu
 
 - [ ] Camera turret -> release of my [Mastcam package](https://github.com/andreagavazzi/ag_mastcam)
 - [ ] Lidar laser scanner
-- [ ] Arduino Nano -> controller for my retrofi package "Sense"
+- [ ] Arduino Nano -> controller for my retrofit package "Sense"
 
 # Sensors and Electronics
 <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/sensor.png" alt="sensor" width="400"/>
