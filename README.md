@@ -48,7 +48,7 @@ Perception is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu,
 **NVIDIA Jetson AGX Xavier**: The latest addition to the Jetson platform. It’s an AI computer for autonomous machines, delivering the performance of a GPU workstation in an embedded module under 30W. Jetson AGX Xavier is designed for robots, drones and other autonomous machines.
 
 # Gallery
-Rover design in Shapr3D on iPad Pro and my MEB cover for SRF sensors.
+Rover design in Shapr3D on iPad Pro and my MEB cover for SRF sensors.  
 <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/shapr3d.png" alt="Shapr3D" width="400"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/cover.jpg" alt="Cover" width="400"/>  
   
 Work in progress  
