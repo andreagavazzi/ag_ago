@@ -20,7 +20,7 @@ All information for building Perception is free and open source for anyone to bu
 
 **Perception version 1.0** 
 
-- [ ] This milestone includes the standard functional rover
+- [x] This milestone includes the standard functional rover
 - [ ] Aestetic add-ons on the chassis (reactor, attachments and linkages, ...)
 
 **Perception version 1.5** 
