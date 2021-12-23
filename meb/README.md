@@ -2,6 +2,9 @@
 
 The cover is housing additional sensors and new electronics running on Arduino Nano
 
-**IMU**
- **LED lights**
-**Ultrasonic sensors**
+**IMU**  
+ToDo  
+**LED lights**  
+ToDo  
+**Ultrasonic sensors**  
+ToDo  
