@@ -1,7 +1,7 @@
 /*
 /* MEB Cover Sensor v1.0
 *  All righs GPL-3.0 License
-*  https://github.com/andreagavazzi/ag_perceptiondetects 
+*  https://github.com/andreagavazzi/ag_perception
 */
 
 #include <math.h>
