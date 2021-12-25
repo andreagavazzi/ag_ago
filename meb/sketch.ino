@@ -1,8 +1,7 @@
 /*
 /* MEB Cover Sensor v1.0
-*  See https://github.com/andreagavazzi/ag_perceptiondetects 
-*  for infos and guidelines.
 *  All righs GPL-3.0 License
+*  https://github.com/andreagavazzi/ag_perceptiondetects 
 */
 
 #include <math.h>
@@ -95,15 +94,14 @@ void loop()
 
     temp_msg.header.stamp = nh.now();
     temp_msg.temperature = temperature;
+    pub_temp.publish(&temp_msg);
 
     range_right.header.stamp = nh.now();
     range_right.range = RangeInMeters_r;
+    pub_range_right.publish(&range_right);
 
     range_left.header.stamp = nh.now();
     range_left.range = RangeInMeters_l;
-    
-    pub_temp.publish(&temp_msg);
-    pub_range_right.publish(&range_right);
     pub_range_left.publish(&range_left);
     }
    
