@@ -36,10 +36,10 @@ void sensor_msg_init(sensor_msgs::Range &range_name, char *frame_id_name)
 }
 
 //Lights Subscriber
-void lightsCb( const std_msgs::Empty& toggle_msg){
-  digitalWrite(6, HIGH-digitalRead(6));   // toggle the lights
-}
-ros::Subscriber<std_msgs::Empty> sub_led("toggle_lights", &lightsCb );
+//void lightsCb( const std_msgs::Empty& toggle_msg){
+//  digitalWrite(6, HIGH-digitalRead(6));   // toggle the lights
+//}
+//ros::Subscriber<std_msgs::Empty> sub_led("toggle_lights", &lightsCb );
 
 
 //Temperature Publisher
@@ -56,14 +56,14 @@ ros::Publisher pub_range_left("/ultrasound_left", &range_left);
 
 void setup()
 { 
-  pinMode(6, OUTPUT);
+  //pinMode(6, OUTPUT);  //pin led
 
   //Node, publisher e subscribers
   nh.initNode();
   nh.advertise(pub_temp);
   nh.advertise(pub_range_right);
   nh.advertise(pub_range_left);
-  nh.subscribe(sub_led);
+  //nh.subscribe(sub_led);
   
   //Temperature msg fxed data
   temp_msg.header.frame_id = "/temperature_link";
