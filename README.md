@@ -43,7 +43,7 @@ Perception will be equipped with an increasing number of sensors while the elect
   
 Perception is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu, step by step I'll migrate some applications I built under my agRobotics firm.
 
-**ROS Melodic**: ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open source, BSD license. ROS Melodic Morenia is the twelfth ROS distribution release.
+**ROS Noetic**: ROS (Robot Operating System) provides libraries and tools to help software developers create robot applications. It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, package management, and more. ROS is licensed under an open source, BSD license. ROS Noetic is the latest ROS distribution release.
 
 **NVIDIA Jetson AGX Xavier**: The latest addition to the Jetson platform. It’s an AI computer for autonomous machines, delivering the performance of a GPU workstation in an embedded module under 30W. Jetson AGX Xavier is designed for robots, drones and other autonomous machines.
 
