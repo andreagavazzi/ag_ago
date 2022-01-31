@@ -49,7 +49,7 @@ Perception is a [ROS](http://ros.org) robotics platform running on Linux Ubuntu,
 
 # Gallery
 Rover design in Shapr3D on iPad Pro and my MEB cover for SRF sensors.  
-<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/shapr3d.png" alt="Shapr3D" width="300"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_0892.PNG" alt="Cover" width="300"/>  
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/shapr3d.png" alt="Shapr3D" width="300"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_0892.PNG" alt="Cover" width="300"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_0893.PNG" alt="Cover" width="300"/>
   
 Work in progress  
 <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_1691.jpg" alt="Chassis" width="300"/>
