@@ -52,7 +52,7 @@ Rover design in Shapr3D on iPad Pro and my MEB cover for additional sensors.
 <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/shapr3d.png" alt="Shapr3D" width="250"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_0892.PNG" alt="Cover" width="250"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_0893.PNG" alt="Cover" width="250"/>
   
 Work in progress  
-<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_1691.jpg" alt="Chassis" width="250"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/work.jpg" alt="Chassis" width="250"/>
+<img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/IMG_1691.jpg" alt="Chassis" width="250"/> <img src="https://github.com/andreagavazzi/ag_perception/blob/main/assets/work1.jpg" alt="Chassis" width="250"/>
 
  
 💾 Additional shared material can be found in my onedrive folder: [Andrea Gavazzi](https://1drv.ms/f/s!AkUtNLbG6ptfpiPbJ0WKSoO58hIA).
