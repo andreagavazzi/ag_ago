@@ -348,6 +348,58 @@ function defaultVideoSrc() {
 }
 
 
+function defaultVideoSrc() {
+    namespaceSub.unsubscribe();
+    
+    if(typeof robot_namespace == 'undefined') {
+        console.log("Unable to get the robot namespace. Assuming it's '/'.");
+        video.src = "http://" + robot_hostname + ":8080/stream?topic=/camera/image_raw&type=ros_compressed";
+        const timeout = setTimeout(function () {selectCorrectOption("/camera/image_raw"); }, 3000);
+    }
+}
+
+
+function checkPublishers(topicName) {
+    var request = new ROSLIB.ServiceRequest({topic : topicName});
+
+    publishersClient.callService(request, function(result) {
+	    var publishers = result.publishers;
+
+        if(publishers.length != 0) {
+            var opt = document.createElement('option');
+            opt.innerHTML = topicName;
+            select.appendChild(opt);
+        }
+    });
+}
+
+function getVideoTopics() {
+    var request = new ROSLIB.ServiceRequest({type : "sensor_msgs/Image"});
+
+    topicsForTypeClient.callService(request, function(result) {
+	    var topics = result.topics;
+
+	    for(var i = 0; i < topics.length; i++) {
+	        checkPublishers(topics[i]);
+	    }
+    });
+}
+
+function changeVideoSrc() {
+    var selected = select.selectedIndex;
+    video.src = "http://" + robot_hostname + ":8080/stream?topic=" + select.options[selected].text + "&type=ros_compressed";
+}
+
+function selectCorrectOption(name) {
+    for(var i = 0; i < select.options.length; i++) {
+        if(select.options[i].text == name) {
+            select.selectedIndex = i;
+            break;
+        }
+    }
+}
+
+
 window.onload = function () {
 
     robot_hostname = location.hostname;
@@ -356,8 +408,11 @@ window.onload = function () {
     initSliders();
     initTeleopKeyboard();
     createJoystick();
+    getVideoTopics();
 
     video = document.getElementById('video');
+    select = document.getElementById('camera-select');
+    
     const timeout = setTimeout(defaultVideoSrc, 3000);
 
     twistIntervalID = setInterval(() => publishTwist(), 100); // 10 hz

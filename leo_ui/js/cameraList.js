@@ -2,6 +2,7 @@ var select;
 var video;
 var robot_hostname;
 
+
 function createOptions() {
     if(select.childElementCount == 0) {
         for(var i = 0; i < cameraTopics.length; i++) {
