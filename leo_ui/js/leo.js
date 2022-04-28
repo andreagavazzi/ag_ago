@@ -3,8 +3,6 @@ var manager;
 var ros;
 var batterySub;
 var batterySub1;
-var temperatureSub;
-var humiditySub;
 var cmdVelPub;
 var servo1Pub, servo2Pub, servo3Pub;
 var servo1Val, servo2Val, servo3Val;
@@ -12,12 +10,19 @@ var servo1Last = 0, servo2Last = 0, servo3Last = 0;
 var twistIntervalID;
 var servoIntervalID;
 var robot_hostname;
+var temperatureSub;
+var humiditySub;
 
 var max_linear_speed = 0.5;
 var max_angular_speed = 1.2;
 
 var namespaceSub;
 var robot_namespace;
+
+var publishersClient;
+var topicsForTypeClient;
+
+var select;
 
 function initROS() {
 
@@ -76,7 +81,6 @@ function initROS() {
     servo2Pub.advertise();
     servo3Pub.advertise();
     
-    
     relay1Pub = new ROSLIB.Topic({
         ros: ros,
         name: '/relay1',
@@ -110,7 +114,7 @@ function initROS() {
     relay3Pub.advertise();
     relay4Pub.advertise();
     
-
+    
     systemRebootPub = new ROSLIB.Topic({
         ros: ros,
         name: 'system/reboot',
@@ -140,7 +144,8 @@ function initROS() {
         queue_length: 1
     });
     batterySub1.subscribe(batteryCallback);
-
+    
+    
     temperatureSub = new ROSLIB.Topic({
         ros: ros,
         name: 'temperature',
@@ -149,13 +154,15 @@ function initROS() {
     });
     temperatureSub.subscribe(temperatureCallback);
 
-    temperatureSub = new ROSLIB.Topic({
+    humiditySub = new ROSLIB.Topic({
         ros: ros,
         name: 'humidity',
         messageType: 'sensor_msgs/RelativeHumidity',
         queue_length: 1
     });
-    temperatureSub.subscribe(humidityCallback);
+    humiditySub.subscribe(humidityCallback);
+    
+    
 
     namespaceSub = new ROSLIB.Topic({
         ros: ros,
@@ -164,6 +171,19 @@ function initROS() {
         queue_length: 1
     });
     namespaceSub.subscribe(namespaceCallback);
+
+    publishersClient = new ROSLIB.Service({
+        ros : ros,
+        name : '/rosapi/publishers',
+        serviceType : '/rosapi/Publishers'
+    });
+    
+    topicsForTypeClient = new ROSLIB.Service({
+        ros : ros,
+        name : '/rosapi/topics_for_type',
+        serviceType : '/rosapi/TopicsForType'
+    });
+    
 }
 
 
@@ -268,9 +288,11 @@ function humidityCallback(message) {
     document.getElementById('humidityID').innerHTML = 'Humidity: ' + message.relative_humidity.toPrecision(4) + '%';
 }
 
+
 function namespaceCallback(message) {
     robot_namespace = message.data;
     video.src = "http://" + robot_hostname + ":8080/stream?topic=" + robot_namespace + "camera/image_raw&type=ros_compressed";
+    const timeout = setTimeout(function () {selectCorrectOption(robot_namespace + "camera/image_raw");}, 3000);
 }
 
 
@@ -338,18 +360,6 @@ function shutdown() {
 
 function defaultVideoSrc() {
     namespaceSub.unsubscribe();
-
-    var checkBox = document.getElementById("toggleCam");
-
-    if(typeof robot_namespace == 'undefined') {
-        console.log("Unable to get the robot namespace. Assuming it's '/'.");
-        video.src = "http://" + robot_hostname + ":8080/stream?topic=/camera/image_raw&type=ros_compressed";
-    }
-}
-
-
-function defaultVideoSrc() {
-    namespaceSub.unsubscribe();
     
     if(typeof robot_namespace == 'undefined') {
         console.log("Unable to get the robot namespace. Assuming it's '/'.");
@@ -399,7 +409,6 @@ function selectCorrectOption(name) {
     }
 }
 
-
 window.onload = function () {
 
     robot_hostname = location.hostname;
@@ -412,7 +421,7 @@ window.onload = function () {
 
     video = document.getElementById('video');
     select = document.getElementById('camera-select');
-    
+
     const timeout = setTimeout(defaultVideoSrc, 3000);
 
     twistIntervalID = setInterval(() => publishTwist(), 100); // 10 hz
