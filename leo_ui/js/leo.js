@@ -269,14 +269,8 @@ function humidityCallback(message) {
 }
 
 function namespaceCallback(message) {
-    var checkBox = document.getElementById("toggleCam");
     robot_namespace = message.data;
-    if (checkBox.checked == true){
-        video.src = "http://" + robot_hostname + ":8080/stream?topic=" + robot_namespace + "usb_cam/image_raw&type=ros_compressed";
-    }
-    else {
-        video.src = "http://" + robot_hostname + ":8080/stream?topic=" + robot_namespace + "camera/image_raw&type=ros_compressed";
-    }
+    video.src = "http://" + robot_hostname + ":8080/stream?topic=" + robot_namespace + "camera/image_raw&type=ros_compressed";
 }
 
 
@@ -344,15 +338,12 @@ function shutdown() {
 
 function defaultVideoSrc() {
     namespaceSub.unsubscribe();
+
     var checkBox = document.getElementById("toggleCam");
+
     if(typeof robot_namespace == 'undefined') {
         console.log("Unable to get the robot namespace. Assuming it's '/'.");
-        if (checkBox.checked == true){
-            video.src = "http://" + robot_hostname + ":8080/stream?topic=" + robot_namespace + "usb_cam/image_raw&type=ros_compressed";
-        }
-        else {
-            video.src = "http://" + robot_hostname + ":8080/stream?topic=" + robot_namespace + "camera/image_raw&type=ros_compressed";
-        }
+        video.src = "http://" + robot_hostname + ":8080/stream?topic=/camera/image_raw&type=ros_compressed";
     }
 }
 
