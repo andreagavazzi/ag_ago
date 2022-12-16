@@ -25,7 +25,8 @@ All information for building Perception is free and open source for anyone to bu
 
 **Perception version 1.5** 
 
-- [ ] Camera turret -> release of my [Mastcam package](https://github.com/andreagavazzi/ag_mastcam)
+- [x] Camera turret -> release of my [Mastcam package](https://github.com/andreagavazzi/ag_mastcam)
+- [x] Camera turret v2 -> new improved version
 - [ ] Lidar laser scanner
 - [x] Arduino Nano -> controller for my retrofit package "Sense"
 
