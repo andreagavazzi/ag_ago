@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import rospy
 import os
@@ -30,9 +30,9 @@ def toggleEmitterCallback():    # Accende o spegne il laser
     check = client.get_configuration()
 
     if check.get('emitter_enabled') == 1:
-            emitter = { 'emitter_enabled' : 0 }
+        emitter = { 'emitter_enabled' : 0 }
     else:
-            emitter = { 'emitter_enabled' : 1 }
+        emitter = { 'emitter_enabled' : 1 }
 
     client.update_configuration(emitter)
     client.close()
@@ -42,7 +42,7 @@ try:
     rospy.init_node("leo_system")
     pose_sub = rospy.Subscriber("system/shutdown", Empty, shutdownCallback)
     pose_sub = rospy.Subscriber("system/reboot", Empty, rebootCallback)
-    pose_sub = rospy.Subscriber("system/emitter", Empty, toggleEmitterCallback)
+    pose_sub = rospy.Subscriber("system/toggle_emitter", Empty, toggleEmitterCallback)
     rospy.loginfo("Leo system node started!")
 
     publishNamespace()
