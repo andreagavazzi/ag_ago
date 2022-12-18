@@ -24,9 +24,9 @@ def publishNamespace():
     namespace_pub.publish(namespace)
 
 
-def toggleEmitterCallback():    # Accende o spegne il laser
+def toggleEmitterCallback(x):    # Toggle the D435i emitter
     rospy.loginfo("Toggle emitter command invoked")
-    client = Client('d435i_camera/stereo_module', timeout=15)
+    client = Client('d435i_camera/stereo_module', timeout=10)
     check = client.get_configuration()
 
     if check.get('emitter_enabled') == 1:
@@ -34,7 +34,7 @@ def toggleEmitterCallback():    # Accende o spegne il laser
     else:
         emitter = { 'emitter_enabled' : 1 }
 
-    client.update_configuration(emitter)
+    config = client.update_configuration(emitter)
     client.close()
 
 
