@@ -7,6 +7,7 @@ from dynamic_reconfigure.client import Client
 from std_msgs.msg import Empty
 from std_msgs.msg import String
 
+from interbotix_xs_modules.turret import InterbotixTurretXS
 
 def rebootCallback(x):
     rospy.loginfo("Reboot command invoked")
@@ -37,12 +38,17 @@ def toggleEmitterCallback(x):    # Toggle the D435i emitter
     config = client.update_configuration(emitter)
     client.close()
 
+def resetDxlCallback(x):
+    rospy.loginfo("Reset Dynamixl position invoked")
+    
+
 
 try:
     rospy.init_node("leo_system")
     pose_sub = rospy.Subscriber("system/shutdown", Empty, shutdownCallback)
     pose_sub = rospy.Subscriber("system/reboot", Empty, rebootCallback)
     pose_sub = rospy.Subscriber("system/toggle_emitter", Empty, toggleEmitterCallback)
+    pose_sub = rospy.Subscriber("system/resetDxl", Empty, resetDxlCallback)
     rospy.loginfo("Leo system node started!")
 
     publishNamespace()
